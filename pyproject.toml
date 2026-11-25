@@ -1,0 +1,16 @@
+[project]
+name = "qhttpserver"
+version = "0.1.0"
+description = "An http server to work with PyQt6 event loop. Built using QTcpServer"
+authors = [
+    {name = "Srpboyz",email = "srpboyz69@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyqt6 (>=6.12.1,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
